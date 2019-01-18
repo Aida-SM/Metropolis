@@ -25,8 +25,12 @@ public class Metropolis{
         System.out.println("How much the average income of a year");
         taxesPerCitizen = scanner.nextDouble();
 
+         if(typeOfCity( isCapital,numberOfCitizens, taxesPerCitizen)){
+            System.out.println("city is metropolis");
+        }
+
     }
-    
+
     private static boolean typeOfCity(boolean isCapital,int numberOfCitizens, double taxesPerCitizen){
 
          if (isCapital==true &&  numberOfCitizens>100000 || isCapital==false && numberOfCitizens>200000 && taxesPerCitizen>=720000000 ){
