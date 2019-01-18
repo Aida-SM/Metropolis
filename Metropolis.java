@@ -36,5 +36,9 @@ public class Metropolis{
 
 
     }
+    private static boolean typeOfCity(boolean isCapital,int numberOfCitizens, double taxesPerCitizen){
+
+        
+    }
 
  }
