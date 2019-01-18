@@ -7,6 +7,7 @@ public class Metropolis{
         int numberOfCitizens;
         double taxesPerCitizen;
         double incomePerCitizen;
+        double incomeOfCityPerYear;
 
         Scanner scanner = new Scanner(System.in);
 
