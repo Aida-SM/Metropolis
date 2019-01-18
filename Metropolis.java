@@ -6,6 +6,7 @@ public class Metropolis{
         char AnswerOfIsCapital;
         int numberOfCitizens;
         double taxesPerCitizen;
+        double incomePerCitizen;
 
         Scanner scanner = new Scanner(System.in);
 
