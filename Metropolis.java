@@ -32,15 +32,15 @@ public class Metropolis{
 
         incomeOfCityPerYear= (incomePerCitizen*(taxesPerCitizen/100))*numberOfCitizens*12;
 
-         if(typeOfCity( isCapital,numberOfCitizens, taxesPerCitizen)){
+         if(typeOfCity( isCapital,numberOfCitizens, incomeOfCityPerYear)){
             System.out.println("city is metropolis");
         }
 
     }
 
-    private static boolean typeOfCity(boolean isCapital,int numberOfCitizens, double taxesPerCitizen){
+    private static boolean typeOfCity(boolean isCapital,int numberOfCitizens, double incomeOfCityPerYear){
 
-         if (isCapital==true &&  numberOfCitizens>100000 || isCapital==false && numberOfCitizens>200000 && taxesPerCitizen>=720000000 ){
+         if (isCapital==true &&  numberOfCitizens>100000 || isCapital==false && numberOfCitizens>200000 && incomeOfCityPerYear>=720000000 ){
 
             return true;
 
