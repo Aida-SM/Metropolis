@@ -35,6 +35,8 @@ public class Metropolis{
          if(typeOfCity( isCapital,numberOfCitizens, incomeOfCityPerYear)){
             System.out.println("city is metropolis");
         }
+        else
+            System.out.println("city is not metropolis");
 
     }
 
