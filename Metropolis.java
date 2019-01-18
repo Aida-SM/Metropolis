@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Metropolis{
     public static void main(String[] args) {
 
-        boolean isCapital;
+        boolean isCapital=false;
         char AnswerOfIsCapital;
         int numberOfCitizens;
         double taxesPerCitizen;
