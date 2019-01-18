@@ -24,7 +24,7 @@ public class Metropolis{
         System.out.println("How many citizen it has?");
         numberOfCitizens = scanner.nextInt();
 
-        System.out.println("How much the average income of a year");
+        System.out.println("How many taxes a citizen pays each month in average ");
         taxesPerCitizen = scanner.nextDouble();
 
         System.out.println("How much the average income of each month?");
